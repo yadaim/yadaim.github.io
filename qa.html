@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<title>ידיים מדברות</title>
+		<meta charset="UTF-8">
+
+		
+		<style>
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: purple;
+				font-family:Arial
+			}
+
+			li {
+				float: right;
+			}
+
+			li a {
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover {
+				background-color: #111;
+			}
+						h1, h2 {
+				border: rgb(102, 0, 0) 2px solid;
+				border-left: 1px none;
+				border-right: 1px none;
+				border-top: 10px none;
+				margin-bottom: 1em;
+				margin-left: -10px;
+				margin-right: 0px;
+				padding: 20px;
+				width: 98%;
+				display: block;
+				color:  rgb(102, 0, 0);
+				font-size: 18px;
+				font-weight: bold;
+				letter-spacing: 4px;
+				text-align: center;
+				height: 21px;
+				position: relative;
+			}
+
+			h2 {
+				color: rgb(5, 0, 0);
+				font-family: Trebuchet MS, sans-serif;
+				font-weight: bold;
+				font-size: 30px;
+			}
+
+			body {
+				font-family: Trebuchet MS, sans-serif; 
+				font-size: larger;
+				text-align: center;
+				margin-bottom: 20px;
+				margin-top: 0px;
+				color: rgb(102, 0, 0);
+				background-image: url("ss.jpg"); background-repeat: repeat;
+			}
+			html, body, #container { 
+				height: 100%; 
+			}
+			body > #container { 
+				height: auto; min-height: 100%; 
+			}
+			#footer {
+				clear: both;
+				position: relative;
+				z-index: 10;
+				height: 3em;
+				margin-top: -3em;
+			}
+			#content { 
+				padding-bottom: 3em; 
+			}
+			td {
+				text-align: center;
+				
+			}
+			img {
+				width:200px;
+				border-style: solid;
+				border-color: rgb(0,0,0);
+				border-width: 0px;
+				
+			}
+			table.center {margin-left:auto; margin-right:auto;}
+			#httphotos {
+				position: absolute;
+				right: 0px;
+				bottom: 20px;
+				margin: 0px;
+				padding: 0px;
+			}
+
+			#httphotos img {
+				border: 0px;
+			}
+			h4 {
+				color: #EB9500;
+				font-family: Trebuchet MS, sans-serif;
+				font-weight: bold;
+				font-size: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<ul>
+			<li><a class="active" href="#">ידיים מדברות</a></li>
+			<li><a href="#">מי אנחנו</a></li>
+			<li><a href="#">המחנה</a></li>
+			<li><a href="Photos_.html">גלריית תמונות</a></li>
+			<li><a href="qa.html">שאלות ותשובות</a></li>
+			<li><a href="https://www.facebook.com/groups/1410214602639035/">Facebook</a></li>
+		</ul>
+
+	<br/><br/>
+	<a1 style=" text-align: center;  font-size:30px;   position: absolute; "> שאלות ותשובות</a1>
+	<br/><br/><br/>
+
+<div class="panel-group" id="accordion" style="width: 80%; text-align: right;     position: absolute; right: 0px;">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        איפה אני יכול/ה ללמוד שפת סימנים?</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">אנחנו נותנים טעימה קטנה בסדנאות. מוזמנים לבוא ולהתאמן :).
+מחוץ למידברן יש מורים פרטיים וקבוצות קטנות, ויש קורסים מטעם ארגונים כמו "שמע", "המכון לקידום החירש" ועוד.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        שפת הסימנים היא בינלאומית?</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      לא. בדיוק כפי שבכל מדינה התפתחה שפה מדוברת שונה, כך גם שפות הסימנים התפתחו לשפות שונית.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        אם אני רואה חירש במצוקה, מה אני עושה?</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">גם אם לא יבין אותך, את שפת גופך יבין בהחלט. היה רגוע ותן לו הרגשת ביטחון. יתכן שכן יבין דיבור או קריאת שפתיים, במידה ולא, תנסה להשתמש בכתיבה, בפנטומימה ואם זה לא עוזר – נסה להביא אותו אל המחנה שלנו, או למצוא מישהו מהמחנה שלנו שינסה לסייע.</div>
+    </div>
+  </div>
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        מה ההבדל בין כבדי שמיעה וחירשים?</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">מבחינה רפואית: חירשים אינם שומעים, וכבדי שמיעה נעזרים בעזרי שמיעה ובעלי שמיעה מסויימת. 
+מבחינת זהות: כבדי שמיעה נחשבים אלה שמעדיפים תקשורת אוראלית (דיבור וקריאת שפתיים), וחירשים נחשבים אלה שמעדיפים להשתמש בשפת סימנים, ללא קשר לרמת השמיעה.</div>
+    </div>
+  </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        למה אתם מתאגדים כמחנה/קהילה נפרדת?</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body"> התשובה היא פשוטה: בגלל השפה. השפה שלנו מקשרת בינינו, ותרמה להקמת קהילה של ממש, עם תרבות והיסטוריה משלה. זה לא אומר ששומעים אינם יכולים להצטרף, תמיד ניתן ללמוד שפה חדשה ומופלאה :)</div>
+    </div>
+  </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        האם זה נכון שפגיעה בחוש אחד מפתחת את החושים האחרים?</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">יש טענות לכאן ולכאן. יש אנשים שישבעו לכם בכל היקר להם שזה נכון.</div>
+    </div>
+  </div>
+  
+      <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+       האם חירשות זה גנטי?</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">חירשות יכולה לנבוע מגורם סביבתי כמו מחלת אדמת של האם, שיבושים בזמן הלידה, דלקות אוזניים שהחריפו וכו'. כלומר ללא כל גורם גנטי. בנוסף היא יכולה לנבוע מסיבות גנטיות, יש גנים שונים של חירשות, ואף יתכן שלשני חירשים נשואים יהיו גנים שונים של חירשות- כך שהילדים יהיו שומעים. אך חשוב לציין שלהורים חירשים רבים אין העדפה מיוחדת לילד שומע או חירש, משום שמדובר בקהילה גדולה ויציבה.</div>
+    </div>
+  </div>
+      <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        האם אנחנו מקשיבים למוזיקה?</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body"> חלקנו שומעים אותה, חלקנו מרגישים אותה בויברציות, ואת חלקנו היא פשוט לא מעניינת :).</div>
+    </div>
+  </div>
+      <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        כמה חרשים וכבדי שמיעה חיים בישראל?</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">הסטטיסטיקה מראה על כ 800,000 אנשים עם ירידה בשמיעה. מתוכם בערך 15,000 הם חרשים וכבדי שמיעה דוברי שפת הסימנים הישראלית.</div>
+    </div>
+  </div>
+</div>
+  
+
+		
+		
+		
+	<br/>
+	<br/>
+	<br/>	<br/>
+	<br/>
+	<br/>
+	<br/>	<br/>
+	<br/>
+	<br/>
+	<br/>	<br/>
+	<br/>
+	<br/>
+	<br/>	<br/>
+	<br/>
+	<br/>
+	<br/>	<br/>
+	<br/>
+	<br/>
+	<br/>	<br/>
+	<br/>
+	<br/>
+	<br/>	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<div id="footer">&copy; Copyright 2016, Talking Hands
+	</body>
+</html>
